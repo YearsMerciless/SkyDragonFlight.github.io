@@ -101,12 +101,7 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-
-Example:
-  deploy:
-    type: git
-    repo: git@github.com:SkyDragonFlight/SkyDragonFlight.github.io.git
-    branch: main
-    # message: [message]
-
-    # extend_dirs: [extend directory]
+deploy:
+  type: git
+  repostory: git@github.com:SkyDragonFlight/SkyDragonFlight.github.io.git
+  branch: main
